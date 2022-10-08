@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url("./img/Screen\ Shot\ 2022-05-10\ at\ 18.37\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:('https://fonts.googleapis.com/css2? família= Montserrat:ital,wght@0,300;0,600;1,200;1,300 & display=swap');
+    
+    
+}
+
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-img{
+    margin-bottom: 60px;
+}
+
+.form-comp form{
+    display: flex;
+    flex-direction: column;
+    outline: 0;
+    width: 300px;
+    
+}
+
+form .form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+   
+}
+
+
+.form input{
+    outline: 0;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+input::placeholder{
+    color: #dcd7d7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    
+    
+}
+
+.form-end{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-end button{
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2148C0;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+button:hover{
+    background-color: #d8dce6;
+}
+   
+
+.form-end a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: #dcd7d7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    margin-left: 195px;
+    font-size: 13px;
+   
+}
